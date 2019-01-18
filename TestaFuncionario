@@ -1,0 +1,5 @@
+class TestaFuncionario{
+	public static void main (String[] args){
+		Funcionario F = new Funcionario ("Zé");
+
+		Funcionario.premio = 100; //como a variável é global tem que chamar pela classe
